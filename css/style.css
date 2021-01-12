@@ -5,43 +5,39 @@
 a {
     text-decoration: none;
 }
-.container {
-    /* width: 85% !important; */
+.custom-carusal {
+    padding-top: 20px;
 }
-
-.element {
-    position: relative;
-}
-
-.element:before {
-    content: "\f000";
-    font-family: FontAwesome;
-    font-style: normal;
-    font-weight: normal;
-    text-decoration: inherit;
-
-    color: rgb(228, 18, 18);
-    font-size: 18px;
-    padding-right: 0.5em;
-    position: absolute;
-    top: 10px;
-    left: 0;
-}
-
 .custom-carusal .custom-carusal-items {
     background-color: #fbe9e8;
 }
 
 /* search bar  */
+
 .custom-search-bar {
-    position: relative;
+    position: fixed;
+
+    width: 80%;
+    z-index: 2;
 }
-.custom-search-bar::before {
-    content: "\f007";
-    position: absolute;
-    font-weight: 900;
-    top: 0px;
-    left: 0px;
+.custom-search-bar .card-wrapper {
+    border: none;
+    background: transparent;
+}
+.form-control-borderless {
+    border: none;
+}
+
+.form-control-borderless:hover,
+.form-control-borderless:active,
+.form-control-borderless:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+.form-control-borderless:focus {
+    background-color: transparent;
+    color: gray;
 }
 
 /* ixon section start */

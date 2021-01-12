@@ -11,6 +11,35 @@ a {
 }
 
 /* search bar  */
+.custom-search-bar {
+    background-color: green;
+}
+.form-control-borderless {
+    border: none;
+    outline: none;
+    background-color: rgb(19, 182, 236);
+}
+
+.form-control-borderless:hover,
+.form-control-borderless:active,
+.form-control-borderless:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+.form-control-borderless {
+    border: none;
+    outline: none;
+    background-color: rgb(19, 182, 236);
+}
+
+.form-control-borderless:hover,
+.form-control-borderless:active,
+.form-control-borderless:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
 
 /* =============== */
 
@@ -113,3 +142,5 @@ a {
 .dialog-custom {
     color: white !important;
 }
+
+/* search-bar start  */
