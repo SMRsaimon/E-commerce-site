@@ -5,23 +5,46 @@
 a {
     text-decoration: none;
 }
+.container {
+    /* width: 85% !important; */
+}
+
+.element {
+    position: relative;
+}
+
+.element:before {
+    content: "\f000";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+
+    color: rgb(228, 18, 18);
+    font-size: 18px;
+    padding-right: 0.5em;
+    position: absolute;
+    top: 10px;
+    left: 0;
+}
 
 .custom-carusal .custom-carusal-items {
     background-color: #fbe9e8;
 }
 
 /* search bar  */
-
-/* =============== */
-
-.search-wrap > i {
+.custom-search-bar {
     position: relative;
-    left: 3rem;
+}
+.custom-search-bar::before {
+    content: "\f007";
+    position: absolute;
+    font-weight: 900;
+    top: 0px;
+    left: 0px;
 }
 
-/* ================= */
-
-/* icon section start */
+/* ixon section start */
 #icon .icon-wraper {
     box-sizing: border-box;
     border-radius: 10px;
@@ -106,7 +129,4 @@ a {
 .custom-card-body img:hover {
     transform: scale(1.4);
     cursor: pointer;
-}
-.custom-input-bar:focus-visible {
-    background-color: rgb(26, 189, 243);
 }
