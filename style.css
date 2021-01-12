@@ -110,3 +110,6 @@ a {
 .custom-input-bar:focus-visible {
     background-color: rgb(26, 189, 243);
 }
+.dialog-custom {
+    color: white !important;
+}
