@@ -16,13 +16,13 @@ a {
 
 .custom-search-bar {
     position: fixed;
-
-    width: 80%;
+    width: 100%;
     z-index: 2;
 }
 .custom-search-bar .card-wrapper {
     border: none;
     background: transparent;
+    /* width: 100%; */
 }
 .form-control-borderless {
     border: none;
