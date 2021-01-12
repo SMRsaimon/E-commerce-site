@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 75% !important;
+}
+.custom-carusal .custom-carusal-items {
+    background-color: #fbe9e8;
+}
+.product1,
+.product2,
+.product3 {
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+.catagory-img {
+    width: 25%;
+}
+.custom-card-body {
+    border: none;
+}
+.img-box {
+    overflow: hidden;
+}
+
+.custom-card-footer {
+    background: none;
+    border-top: none;
+}
+
+.custom-card-body img {
+    transition: transform 1s ease;
+    width: 100%;
+    height: 100%;
+}
+.custom-card-body img:hover {
+    transform: scale(1.4);
+    cursor: pointer;
+}
