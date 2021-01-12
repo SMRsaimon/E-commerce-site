@@ -34,6 +34,36 @@ a {
     height: 32px;
 }
 
+/* responsivve icon */
+
+@media only screen and (max-width: 1024px) {
+    #icon .icon-wraper {
+        border-radius: 5px;
+    }
+
+    #icon .icon-wraper a {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: rgb(20, 228, 183);
+        font-size: 15px;
+        font-weight: 500;
+        padding: 2px 5px;
+        padding-right: 15px;
+    }
+    #icon .icon-wraper a > img {
+        display: block;
+        margin: 0 auto;
+    }
+    #icon .icon-wraper a > span {
+        display: block;
+        text-align: center;
+    }
+}
+/* @media (max-width: 768px) {
+   
+} */
+
 /* icon-section end  */
 .product1,
 .product2,
