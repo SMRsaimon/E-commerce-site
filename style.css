@@ -99,12 +99,12 @@ a {
 }
 
 .custom-card-body img {
-    transition: transform 1s ease;
+    transition: all 0.5s ease-in-out 0s;
     width: 100%;
     height: 100%;
 }
 .custom-card-body img:hover {
-    transform: scale(1.4);
+    transform: scale(1.2);
     cursor: pointer;
 }
 .custom-input-bar:focus-visible {
