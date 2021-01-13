@@ -5,6 +5,10 @@
 a {
     text-decoration: none;
 }
+/* button {
+    background-image: linear-gradient(to right, #da22ff 30%, #7f34c0 51%, #2029a7 80%) !important;
+} */
+
 .custom-carusal {
     padding-top: 20px;
 }
@@ -27,6 +31,13 @@ a {
 }
 .call-mail-icon i {
     color: red;
+}
+.nav-social-icon > a {
+    margin-right: 15px;
+    cursor: pointer;
+}
+.nav-social-icon > a :hover {
+    opacity: 0.5;
 }
 /* search bar  start  */
 
