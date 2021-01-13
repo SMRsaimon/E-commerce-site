@@ -11,8 +11,24 @@ a {
 .custom-carusal .custom-carusal-items {
     background-color: #fbe9e8;
 }
+/* adress and contract  */
 
-/* search bar  */
+.number,
+.mail-adress span,
+a {
+    color: gray;
+}
+.nav-link:hover {
+    color: lightseagreen !important;
+}
+
+.nav-link span:hover {
+    color: lightseagreen !important;
+}
+.call-mail-icon i {
+    color: red;
+}
+/* search bar  start  */
 
 .custom-search-bar {
     position: fixed;
@@ -39,6 +55,7 @@ a {
     background-color: transparent;
     color: gray;
 }
+/* search-bar End  */
 
 /* ixon section start */
 #icon .icon-wraper {
